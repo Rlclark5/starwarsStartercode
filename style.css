@@ -14,20 +14,43 @@ img {
 
 
 /* phone */
+
 body {
-  background-color: #e4e7ec;
+  background-color: black;
 }
 
 
 
 h1 {
   font-family: "SF Distant Galaxy";
+  color:yellow;
 }
 
+a{
+  color:yellow;
+}
+.nav{
+  display:flex;
+  flex-direction:column;
+}
+.center{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+}
 
 
 /* computer */
 @media screen and (min-width: 600px) {
+  .nav{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:row;
+  }
+.center{
+
+ flex-direction:row;
+}
 
 
 
