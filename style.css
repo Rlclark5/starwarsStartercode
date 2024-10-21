@@ -4,7 +4,9 @@ img {
   align-self: center;
 }
 
-
+a{
+  align-self: center;
+}
 
 
 @font-face {
@@ -29,14 +31,15 @@ h1 {
 a{
   color:yellow;
 }
-.nav{
-  display:flex;
-  flex-direction:column;
+nav{
+  display: flex;
+  flex-direction: column;
 }
 .center{
   display:flex;
   justify-content: center;
   flex-direction:column;
+ 
 }
 
 
@@ -52,7 +55,11 @@ a{
  flex-direction:row;
 }
 
-
+nav{
+  
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 }
 
